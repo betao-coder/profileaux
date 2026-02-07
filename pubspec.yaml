@@ -1,0 +1,23 @@
+name: profile_aux
+description: ProFile AUX - Neon floating dashboard (local preferences + tips + iOS Shortcuts).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  local_auth: ^2.3.0
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
